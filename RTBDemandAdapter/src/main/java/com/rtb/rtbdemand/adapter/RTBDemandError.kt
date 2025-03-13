@@ -5,7 +5,7 @@ import com.google.android.gms.ads.AdError
 /** Convenience factory class to create AdError objects for custom events.  */
 object RTBDemandError {
     const val SAMPLE_SDK_DOMAIN = "com.google.android.gms.ads"
-    const val CUSTOM_EVENT_ERROR_DOMAIN = "com.rtb.andbeyondmedia.adapter"
+    const val CUSTOM_EVENT_ERROR_DOMAIN = "com.rtb.rtbdemand.adapter"
 
     /** Error raised when the custom event adapter cannot obtain the ad unit id.  */
     const val ERROR_NO_AD_UNIT_ID = 101
